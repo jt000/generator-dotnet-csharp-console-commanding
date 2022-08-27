@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "source": "ProjectName\\ExitCommand.cs",
+      "destination": "<%= projectName %>\\ExitCommand.cs"
+    },
+    {
+      "source": "ProjectName\\ICommand.cs",
+      "destination": "<%= projectName %>\\ICommand.cs"
+    },
+    {
+      "source": "ProjectName\\IProgram.cs",
+      "destination": "<%= projectName %>\\IProgram.cs"
+    },
+    {
+      "source": "ProjectName\\Program.cs",
+      "destination": "<%= projectName %>\\Program.cs"
+    },
+    {
+      "source": "ProjectName\\ProjectName.csproj",
+      "destination": "<%= projectName %>\\<%= projectName %>.csproj"
+    },
+    {
+      "source": "SolutionFile.sln",
+      "destination": "<%= solutionName %>.sln"
+    }
+  ]
+}
